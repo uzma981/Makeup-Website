@@ -1,0 +1,288 @@
+body{ /*Formatting of the full body*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    text-align:center;
+}
+
+
+.header { /*main title  of the page*/
+
+    padding: 50px 50px;
+    background-image: url("header.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: block;
+    position: relative;
+     
+}
+.header h1  { /*Title of the page*/
+    font-size:80px;
+    text-align:center;
+    text-shadow:2px 2px white;
+    color:  #A9A9A9;
+    position: relative;
+    
+}
+
+.header h2{ /*Formatting of the 'everything an makeup enthusiast needs' header*/
+    font-size:25px;
+    text-align: center;
+    color:#fe82b4;
+    text-shadow: 2px 2px white;
+    position: relative;
+    font:"Bahnschrift SemiBold";
+    
+}
+
+
+
+.wrapper{ /*Formatting of the nav bar*/
+    margin: 0 auto;
+    width: 500px;
+    background-color: #E4E7EE;
+    font-family: sans-serif;
+    position: relative;
+    font-size: 25px;
+    }
+    
+    nav{
+    width: 100%;
+    height: 100px;
+    background-color: #7A7A7A;
+    font-size: 20px;
+
+}
+    
+    ul{ /*Formatting of the unordered list in the nav bar*/
+    margin-left: 0px;
+    font-size: 20px;
+    }
+    
+    ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 100px;
+    float: left;
+    line-height: 100px;/* distance between the upper of nav bar*/
+    font-size: 20px;
+    border: none;
+    transition-duration: 0.4s;
+}
+   
+
+
+    ul li:hover { /*Formatting of the hover feature of the button in the nav bar*/
+   background-color: #DA7D9F; /*user will hover mouse over the button, which will change colour*/
+
+    
+    }
+    
+    ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+    
+
+}
+.introduction{ /*container for the introduction of the website page*/
+    width:50%;
+    padding: 5px 5px;
+    background-color: white;
+    position: relative;
+    border:solid thick black;
+    margin-left:auto; /*positions the container in the center of the screen throughout*/
+    margin-right:auto;
+}
+.introduction h3{
+font-family:"Aharoni";
+font-size:30px;
+
+}
+.introduction p{
+    font-family:"Cambria";
+
+ }
+
+ h4{
+    font-size:25px;
+    font-family:"Aharoni";
+}
+
+
+ 
+ol li { /*formatting of the ordered list in the homepage*/
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+.container1{ /*first container box for 'makeup storage' and 'face and lips' page*/
+    width:50%;   
+    padding: 15px 15px;
+    background-size: 10%;
+    background-color: pink;
+    position: relative; 
+    margin-left:auto;
+    margin-right:auto;
+    border:solid thick #FF7C97; /*thick pink border around the container*/
+
+    
+
+}
+.container1 h3{
+    font-family: "Bahnschrift SemiBold";
+    font-size:35px;   
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.container1 p{
+  
+    font-size:15px;
+
+}
+.container1 img{
+
+    width:70%;
+    height:40%;
+}
+
+
+.container2{ 
+    width:50%;
+    
+    padding: 15px 15px;
+    background-size: 10%;
+    background-color: pink;
+    position: relative; 
+   
+    margin-left:auto;
+    margin-right:auto;
+    border:solid thick #FF7C97;
+    border-radius:10px;
+    
+
+}
+.container2 h3{
+    font-family: "Bahnschrift SemiBold";
+    font-size:35px;
+    
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.container2 p{
+   
+    font-size:15px;
+
+}
+.container2 img{
+
+     width:70%;
+    height:20%;
+}
+
+.container3{
+    width:50%;
+   
+    padding: 15px 15px;
+    background-size: 10%;
+    background-color: pink;
+    position: relative; 
+    margin-left:auto;
+    margin-right:auto;
+    border:solid thick #FF7C97; /*Provides a pink border around the container*/
+    border-radius:10px;
+        
+
+}
+.container3 h3{
+    font-family: "Bahnschrift SemiBold";
+    font-size:35px;
+        text-shadow: 0.1em 0.1em 0.2em white;  /*white shadow around the header text */
+}
+
+.container3 p{
+   
+    font-size:15px;
+}
+.container3 img{
+    width:70%;
+    height:20%;
+
+}
+
+.container4{
+    width:50%;
+    
+    padding: 15px 15px;
+    background-size: 10%;
+    background-color: pink;
+    position: relative;   
+    margin-left:auto;
+    margin-right:auto;
+    border:solid thick #FF7C97;
+    border-radius:10px;
+    
+}
+
+
+.container4 h3{
+    font-family: "Bahnschrift SemiBold";
+    font-size:35px;   
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.container4 p{
+    
+    font-size:15px;
+}
+.container4 img{
+
+    width:70%;
+    height:20%;
+}
+
+
+
+.footer { /*Formatting of the footer*/
+    
+    font-size: 20px;
+    
+    }
+p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px)/* Formatting of responsiveness, when user narrows the screen size*/ {
+  body  {background-color: white;}
+  nav {
+    padding:0;
+    border-radius:100px;
+  }
+  h1{
+    width:10px;
+  }
+    
+  }
+@media screen and (max-width: 800px) and (min-width: 600px), (min-width: 1100px) /*Formatting of screen size, and image view */ {
+  div.image1 {
+    
+    width:10%;  
+  
+  }
+
+}
+
+
+.col-1 {width:8;}
+@media only screen and (max-width:700px){
+    [class*="col-"]{
+        width:100%;
+
+    }
+}
+@-ms-viewport{ /*This adds responsiveness to the webpage*/
+  width: device-width;
+}
